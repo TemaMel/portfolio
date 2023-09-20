@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #212529;
+	font-family: raleway_f, sans-serif;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+
+@import 'libs/fonts';
+
+
+@import 'base/variables';
+@import 'base/mixins';
+
+
+.divider {
+    height: 3px;
+    width: 60px;
+    background-color: $main-color;
+    margin: 20px auto;
+    &_about {
+        margin: 0;
+    }
+}
+
+@import 'blocks/buttons';
+@import 'blocks/sidepanel';
+@import 'blocks/title';
+@import 'blocks/main';
+@import 'blocks/menu';
+@import 'blocks/about';
+@import 'blocks/resume';
+@import 'blocks/skills';
