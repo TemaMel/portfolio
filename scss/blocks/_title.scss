@@ -1,5 +1,5 @@
 .title {
-    color: #fff;
+    color: #000;
     font-size: 36px;
     line-height: 60px;
     font-weight: 700;
@@ -21,7 +21,7 @@
     font-weight: 700;
     z-index: 100;
     position: relative;
-    color: #fff;
+    color: #000;
     text-align: center;
     @include before_circle;
     &:before {
