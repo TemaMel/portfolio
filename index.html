@@ -6,9 +6,12 @@
     <title>WebDeveloper</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body>
     <div class="overflow">
+
+
         <aside class="sidepanel">
             <a href=" https://t.me/tematriceps" class="sidepanel__link" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512"><style></style><path d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg>
@@ -23,6 +26,14 @@
             <div class="sidepanel__text"><span>Социальные сети</span></div>
         </aside>
     
+
+        <div class="hamburger">
+            <span></span>
+            <span class="long"></span>
+            <span></span>
+        </div>
+
+
         <div class="menu">
             <div class="menu__block">
                 <div class="menu__close">
@@ -33,12 +44,12 @@
     
                 <nav>
                     <ul class="menu__list">
-                        <li class="menu__link" id="link"><a href="#">ПРО МЕНЯ</a></li>
-                        <li class="menu__link" id="link"><a href="#">МОЙ ОПЫТ</a></li>
-                        <li class="menu__link" id="link"><a href="#">МОИ НАВЫКИ</a></li>
-                        <li class="menu__link" id="link"><a href="#">МОИ РАБОТЫ</a></li>
-                        <li class="menu__link" id="link"><a href="#">ПРАЙС-ЛИСТ</a></li>
-                        <li class="menu__link" id="link"><a href="#">КОНТАКТЫ</a></li>
+                        <li class="menu__link" id="link"><a href="#ab">ПРО МЕНЯ</a></li>
+                        <li class="menu__link" id="link"><a href="#res">МОЙ ОПЫТ</a></li>
+                        <li class="menu__link" id="link"><a href="#skill">МОИ НАВЫКИ</a></li>
+                        <li class="menu__link" id="link"><a href="#portf">МОИ РАБОТЫ</a></li>
+                        <li class="menu__link" id="link"><a href="#pr">ПРАЙС-ЛИСТ</a></li>
+                        <li class="menu__link" id="link"><a href="#cont">КОНТАКТЫ</a></li>
                     </ul>
                 </nav>
                 <div class="menu__social">
@@ -58,451 +69,448 @@
     
             </div>
         </div>
-    
-        <div class="hamburger">
-            <span></span>
-            <span class="long"></span>
-            <span></span>
-        </div>
 
-        <div class="wrapper">
-            <div class="content">
-                <header class="main-header">
-                    <div class="layers">
-                        <div class="layer__header">
-                            <div class="layers__caption">
-                                Портфолио web-разработчика
-                            </div>
-                            <div class="layers__title">
-                                Добро пожаловать
-                            </div>
-                        </div>
-                        <div class="layer layers__base" style="background-image: url(img/main/layer-base.png);"></div>
-                        <div class="layer layers__middle" style="background-image: url(img/main/layer-middle.png);"></div>
-                        <div class="layer layers__front" style="background-image: url(img/main/layer-front.png);"></div>
+        <header class="main-header">
+            <div class="layers">
+                <div class="layer__header">
+                    <div class="layers__caption">
+                        Портфолио web-разработчика
                     </div>
-                </header>
-                
-                <article class="main-article" style="background-image: url(img/main/dungeon.jpg);">
-                    <div class="container">
-                        <div class="main-aticle__content">
-                            <div class="title title_fz16 main__subtitle">
-                                Меня зовут Мелехов Артём
-                            </div>
-                            <h2 class="title title_fz48 main__title">
-                                Я web-разработчик из города <br>Санкт-Петербург
-                            </h2>
-                            <div class="main__btns">
-                                <a href="#" class="main__link btn">Портфолио</a>
-                                <a href="#about" class="main__link btn btn_bg">Про меня</a>
-                            </div>
-                        </div>
+                    <div class="layers__title">
+                        Добро пожаловать
                     </div>
-                </article>
-
-                <section id="ab" class="about">
-                    <!-- <div class="about_bg"></div> -->
-                    <div class="container">
-                        <div class="about__wrapper">
-                            <div class="about__photo"></div>
-                            <div class="about__descr">
-                                <div class="about__subtitle">
-                                    Про меня
-                                </div>
-                                <div class="title about__title">
-                                    Меня зовут Артём
-                                </div>
-                                <div class="divider divider_mini"></div>
-                                <div class="about__text">
-                                    Мне 24 года, я из города "Санкт-Петербург", Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                                </div>
-                                <div class="about__skills">
-                                    <div class="about__skills-item">
-                                        <div class="about__skills-icon">
-                                            <img src="icons/about/web_development.svg" alt="webdevelopment">
-                                        </div>
-                                        <div class="about__skills-descr">
-                                            <div class="about__skills-title">Web-разработка</div>
-                                            <p class="about__skills-text">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="about__skills-item">
-                                        <div class="about__skills-icon">
-                                            <img src="icons/about/mobile_dev.svg" alt="mobiledev">
-                                        </div>
-                                        <div class="about__skills-descr">
-                                            <div class="about__skills-title">Разработка приложений</div>
-                                            <p class="about__skills-text">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="about__skills-item">
-                                        <div class="about__skills-icon">
-                                            <img src="icons/about/design.svg" alt="design">
-                                        </div>
-                                        <div class="about__skills-descr">
-                                            <div class="about__skills-title">UI/UX Design</div>
-                                            <p class="about__skills-text">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="resume" id="res">
-                    <div class="container">
-                        <div class="subtitle">Опыт</div>
-                        <h2 class="title resume__title">Чем я буду полезен</h2>
-                        <div class="divider"></div>
-                        <div class="resume__wrapper">
-                            <div class="resume__column">
-                                <div class="title title_fz20 resume__column-title">
-                                    Образование
-                                </div>
-                                <ul>
-                                    <li>
-                                        <div class="resume__item">
-                                            <div class="resume__item-head">
-                                                <div class="resume__item-icon">
-                                                    <img src="icons/resume/university.svg" alt="university">
-                                                </div>
-                                                <div class="title title_fz14 resume__item-title">СПб ГБПОУ «Петровский колледж»</div>
-                                                <div class="resume__item-location">Санкт-Петербург (2016-2019)</div>
-                                            </div>
-                                            <p class="resume__item-text">
-                                                В 2019году закончил СПб ГБПОУ «Петровский колледж» по направлению:"Информационные системы
-                                                и программирование" Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, distinctio! Voluptatum, molestias!
-                                            </p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="resume__item">
-                                            <div class="resume__item-head">
-                                                <div class="resume__item-icon">
-                                                    <img src="icons/resume/courses.svg" alt="courses">
-                                                </div>
-                                                <div class="title title_fz14 resume__item-title">Самообразование</div>
-                                                <div class="resume__item-location">Санкт-Петербург (2020-н.в)</div>
-                                            </div>
-                                            <p class="resume__item-text">
-                                                Прошел курсы от двух онлайн школ по направлению: "Web-разработка".
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex qui tenetur est saepe fugiat molestiae obcaecati sequi dignissimos repellat, aspernatur quaerat sunt repudiandae itaque voluptas architecto, nobis minima, laborum necessitatibus dolore?
-                                            </p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="resume__column">
-                                <div class="title title_fz20 resume__column-title">
-                                    Опыт работы
-                                </div>
-                                <ul>
-                                    <li>
-                                        <div class="resume__item">
-                                            <div class="resume__item-head">
-                                                <div class="resume__item-icon">
-                                                    <img src="icons/resume/developer.svg" alt="developer">
-                                                </div>
-                                                <div class="title title_fz14 resume__item-title">Web-разработчик</div>
-                                                <div class="resume__item-location">Санкт-Петербург</div>
-                                            </div>
-                                            <p class="resume__item-text">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eos quis in accusantium ab reprehenderit a id. Voluptates, odio doloribus quod magni suscipit error, fugiat delectus impedit eveniet recusandae expedita repellat distinctio.
-                                            </p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="resume__item">
-                                            <div class="resume__item-head">
-                                                <div class="resume__item-icon">
-                                                    <img src="icons/resume/designer.svg" alt="designer">
-                                                </div>
-                                                <div class="title title_fz14 resume__item-title">UI/UX Designer</div>
-                                                <div class="resume__item-location">Санкт-Петербург</div>
-                                            </div>
-                                            <p class="resume__item-text">
-                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, deserunt quisquam quod odio quas aliquam suscipit vel quia doloribus rem modi laboriosam nesciunt ipsam, voluptas cum eum dicta nam, voluptates quasi blanditiis?
-                                            </p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="skills" id="skill">
-                    <div class="container">
-                        <div class="subtitle">
-                            Навыки
-                        </div>
-                        <h2 class="title skills__title">
-                            Что я использую в работе
-                        </h2>
-                        <div class="divider"></div>
-                        <div class="skills__wrapper">
-                            <div class="skills__item">
-                                <img src="icons/skills/html5.svg" alt="html5" class="skills__item-icon">
-                                <div class="skills__item-title">
-                                    HTML5
-                                </div>
-                                <p class="skills__item-descr">
-                                    Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта
-                                </p>
-                            </div>
-                            <div class="skills__item">
-                                <img src="icons/skills/css3.svg" alt="css3" class="skills__item-icon">
-                                <div class="skills__item-title">
-                                    CSS3
-                                </div>
-                                <p class="skills__item-descr">
-                                    Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!
-                                </p>
-                            </div>
-                            <div class="skills__item">
-                                <img src="icons/skills/js.svg" alt="JS" class="skills__item-icon">
-                                <div class="skills__item-title">
-                                    Java Script
-                                </div>
-                                <p class="skills__item-descr">
-                                    Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое
-                                </p>
-                            </div>
-                            <div class="skills__item">
-                                <img src="icons/skills/jquery.svg" alt="jquery" class="skills__item-icon">
-                                <div class="skills__item-title">
-                                    Jquery
-                                </div>
-                                <p class="skills__item-descr">
-                                    Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект мы её не будем, но навык работы с ней присутствует
-                                </p>
-                            </div>
-                            <div class="skills__item">
-                                <img src="icons/skills/react.svg" alt="react" class="skills__item-icon">
-                                <div class="skills__item-title">
-                                    React
-                                </div>
-                                <p class="skills__item-descr">
-                                    Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели
-                                </p>
-                            </div>
-                            <div class="skills__item">
-                                <img src="icons/skills/node.js.svg" alt="node.js" class="skills__item-icon">
-                                <div class="skills__item-title">
-                                    Node.js
-                                </div>
-                                <p class="skills__item-descr">
-                                    Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит
-                                </p>
-                            </div>
-                            <div class="skills__item">
-                                <img src="icons/skills/mongo.db.svg" alt="mongo.db" class="skills__item-icon">
-                                <div class="skills__item-title">
-                                    Mongo.db
-                                </div>
-                                <p class="skills__item-descr">
-                                    Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения
-                                </p>
-                            </div>
-                        </div>
-
-
-                        <div class="skills__ratings">
-                            <div class="skills__ratings-item">
-                                <div class="title title_fz14 skills__ratings-title">
-                                    Создание сайтов
-                                </div>
-                                <div class="skills__ratings-counter">100%</div>
-                                <div class="skills__ratings-line">
-                                    <span></span>
-                                </div>
-                            </div>
-                            <div class="skills__ratings-item">
-                                <div class="title title_fz14 skills__ratings-title">
-                                    Создание приложений
-                                </div>
-                                <div class="skills__ratings-counter">50%</div>
-                                <div class="skills__ratings-line">
-                                    <span></span>
-                                </div>
-                            </div>
-                            <div class="skills__ratings-item">
-                                <div class="title title_fz14 skills__ratings-title">
-                                    Работа с данными
-                                </div>
-                                <div class="skills__ratings-counter">70%</div>
-                                <div class="skills__ratings-line">
-                                    <span></span>
-                                </div>
-                            </div>
-                            <div class="skills__ratings-item">
-                                <div class="title title_fz14 skills__ratings-title">
-                                    Креативность
-                                </div>
-                                <div class="skills__ratings-counter">75%</div>
-                                <div class="skills__ratings-line">
-                                    <span></span>
-                                </div>
-                            </div>
-                            <div class="skills__ratings-item">
-                                <div class="title title_fz14 skills__ratings-title">
-                                    Создание дизайна
-                                </div>
-                                <div class="skills__ratings-counter">70%</div>
-                                <div class="skills__ratings-line">
-                                    <span></span>
-                                </div>
-
-                            </div>
-                            <div class="skills__ratings-item">
-                                <div class="title title_fz14 skills__ratings-title">
-                                    Soft skills
-                                </div>
-                                <div class="skills__ratings-counter">95%</div>
-                                <div class="skills__ratings-line">
-                                    <span></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="portfolio" id="portf">
-                    <div class="container">
-                        <div class="subtitle">Портфолио</div>
-                        <h2 class="title portfolio__title">
-                            Мои работы
-                        </h2>
-                        <div class="divider"></div>
-                        <div class="portfolio__wrapper">
-                            <a href="#" class="portfolio__item">
-                                <img src="img/portfolio/uber.jpg" alt="uber">
-                            </a>
-                            <a href="#" class="portfolio__item">
-                                <img src="img/portfolio/pulse.jpg" alt="pulse">
-                            </a>
-                            <a href="#" class="portfolio__item">
-                                <img src="img/portfolio/bread.jpg" alt="bread">
-                            </a>
-                            <a href="#" class="portfolio__item vertical">
-                                <img src="img/portfolio/plans.jpg" alt="plans">
-                            </a>
-                            <a href="#" class="portfolio__item">
-                                <img src="img/portfolio/ipad.jpg" alt="ipad">
-                            </a>
-                            <a href="#" class="portfolio__item horizonal">
-                                <img src="img/portfolio/mac.jpg" alt="mac">
-                            </a>
-                        </div>
-                    </div>
-                </section>
-                
-                <section class="price" id="pr">
-                    <div class="container">
-                        <div class="subtitle">Прайс-лист</div>
-                        <div class="divider"></div>
-                        <div class="price__wrapper">
-                            <div class="price__item">
-                                <div class="price__name">Landing-page</div>
-                                <div class="price__count">от 8000 руб.</div>
-                                <div class="price__descr">Одностраничный сайт для презентации услуг/товаров/...</div>
-                            </div>
-                            <div class="price__item">
-                                <div class="price__name">Web-приложение</div>
-                                <div class="price__count">от 28000 руб.</div>
-                                <div class="price__descr">Приложение внутри браузера для лучшего комфорта</div>
-                            </div>
-                            <div class="price__item">
-                                <div class="price__name">Корпоративный сайт</div>
-                                <div class="price__count">от 10000 руб.</div>
-                                <div class="price__descr">Сайт для вашего бизнеса или компании</div>
-                            </div>
-                            <div class="price__item">
-                                <div class="price__name">Android/IOS Приложение</div>
-                                <div class="price__count">В разработке...</div>
-                                <div class="price__descr">Сайт для вашего бизнеса или компании. В разработке</div>
-                            </div>
-                            <div class="price__item">
-                                <div class="price__name">Интернет-магазин</div>
-                                <div class="price__count">от 15000 руб.</div>
-                                <div class="price__descr">Инструмент для ваших продаж в сети</div>
-                            </div>
-                            <div class="price__item">
-                                <div class="price__name">Дизайн</div>
-                                <div class="price__count">Индивидуально</div>
-                                <div class="price__descr">Создам дизайн для вашего сайта/приложения...</div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="contacts" id="cont">
-                    <div class="container">
-                        <div class="contacts__wrapper">
-                            <div class="contacts__photo">
-                                <img src="img/contacts/contacts_photo.PNG" alt="contact_photo">
-                            </div>
-                            <div class="contacts__item">
-                                <div class="contacts__subtitle">Контакты</div>
-                                <h2 class="title contacts__title">Свяжитесь со мной</h2>
-                                <div class="divider divider_mini"></div>
-                                <div class="title title_fz14 contacts__text">Любым удобным для вас способом:</div>
-                                <div class="contacts__social">
-                                    <a href=" https://t.me/tematriceps" class="contacts__link" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512"><style></style><path d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg>
-                                    </a>
-                                    <a href="" class="contacts__link" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512"><style></style><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
-                                    </a>
-                                    <a href="" class="contacts__link" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><style></style><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
-                                    </a>
-                                </div>
-                                <div class="title title_fz14 contacts__text">Или оставьте ваши данные и я сама вам напишу:</div>
-                                <form action="#" class="contacts__form">
-                                    <div class="contacts__input">
-                                        <input type="text" required id="name" name="name">
-                                        <label for="name">Ваше имя</label>
-                                    </div>
-                                    <div class="contacts__input">
-                                        <input type="email" required id="name" name="email">
-                                        <label for="email">Ваша почта</label>
-                                    </div>
-                                    <div class="contacts__textarea">
-                                        <textarea name="text" id="text"></textarea>
-                                        <label for="text">Ваше сообщение</label>
-                                    </div>
-                                    <div class="contacts__triggers">
-                                        <button class="contacts__btn btn">Отправить сообщение</button>
-                                        <div class="contacts__policy">
-                                            <input required type="checkbox">
-                                            <span>Я согласен(а) с <a href="№">политикой конфиденциальности</a></span>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                </div>
+                <div class="layer layers__base" style="background-image: url(img/main/layer-base.png);"></div>
+                <div class="layer layers__middle" style="background-image: url(img/main/layer-middle.png);"></div>
+                <div class="layer layers__front" style="background-image: url(img/main/layer-front.png);"></div>
             </div>
-        </div>
+        </header>
         
+        <article class="main-article" style="background-image: url(img/main/dungeon.jpg);">
+            <div class="container">
+                <div class="main-aticle__content">
+                    <div class="title title_fz16 main__subtitle">
+                        Меня зовут Мелехов Артём
+                    </div>
+                    <h2 class="title title_fz48 main__title">
+                        Я web-разработчик из города <br>Санкт-Петербург
+                    </h2>
+                    <div class="main__btns">
+                        <a href="#" class="main__link btn">Портфолио</a>
+                        <a href="#about" class="main__link btn btn_bg">Про меня</a>
+                    </div>
+                </div>
+            </div>
+        </article>
 
+        <section id="ab" class="about" data-aos="fade-up">
+            <!-- <div class="about_bg"></div> -->
+            <div class="container">
+                <div class="about__wrapper">
+                    <div class="about__photo"></div>
+                    <div class="about__descr">
+                        <div class="about__subtitle">
+                            Про меня
+                        </div>
+                        <div class="title about__title">
+                            Меня зовут Артём
+                        </div>
+                        <div class="divider divider_mini"></div>
+                        <div class="about__text">
+                            Мне 24 года, я из города "Санкт-Петербург", Я начинающий web-разработчик
+                        </div>
+                        <div class="about__skills">
+                            <div class="about__skills-item">
+                                <div class="about__skills-icon">
+                                    <img src="icons/about/web_development.svg" alt="webdevelopment">
+                                </div>
+                                <div class="about__skills-descr">
+                                    <div class="about__skills-title">Web-разработка</div>
+                                    <p class="about__skills-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="about__skills-item">
+                                <div class="about__skills-icon">
+                                    <img src="icons/about/mobile_dev.svg" alt="mobiledev">
+                                </div>
+                                <div class="about__skills-descr">
+                                    <div class="about__skills-title">Разработка приложений</div>
+                                    <p class="about__skills-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="about__skills-item">
+                                <div class="about__skills-icon">
+                                    <img src="icons/about/design.svg" alt="design">
+                                </div>
+                                <div class="about__skills-descr">
+                                    <div class="about__skills-title">UI/UX Design</div>
+                                    <p class="about__skills-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume" id="res" data-aos="fade-up">
+            <div class="container">
+                <div class="subtitle">Опыт</div>
+                <h2 class="title resume__title">Чем я буду полезен</h2>
+                <div class="divider"></div>
+                <div class="resume__wrapper">
+                    <div class="resume__column">
+                        <div class="title title_fz20 resume__column-title">
+                            Образование
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="resume__item">
+                                    <div class="resume__item-head">
+                                        <div class="resume__item-icon">
+                                            <img src="icons/resume/university.svg" alt="university">
+                                        </div>
+                                        <div class="title title_fz14 resume__item-title">СПб ГБПОУ «Петровский колледж»</div>
+                                        <div class="resume__item-location">Санкт-Петербург (2016-2019)</div>
+                                    </div>
+                                    <p class="resume__item-text">
+                                        В 2019году закончил СПб ГБПОУ «Петровский колледж» по направлению:"Информационные системы
+                                        и программирование" Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, distinctio! Voluptatum, molestias!
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="resume__item">
+                                    <div class="resume__item-head">
+                                        <div class="resume__item-icon">
+                                            <img src="icons/resume/courses.svg" alt="courses">
+                                        </div>
+                                        <div class="title title_fz14 resume__item-title">Самообразование</div>
+                                        <div class="resume__item-location">Санкт-Петербург (2020-н.в)</div>
+                                    </div>
+                                    <p class="resume__item-text">
+                                        Прошел курсы от двух онлайн школ по направлению: "Web-разработка".
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex qui tenetur est saepe fugiat molestiae obcaecati sequi dignissimos repellat, aspernatur quaerat sunt repudiandae itaque voluptas architecto, nobis minima, laborum necessitatibus dolore?
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="resume__column">
+                        <div class="title title_fz20 resume__column-title">
+                            Опыт работы
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="resume__item">
+                                    <div class="resume__item-head">
+                                        <div class="resume__item-icon">
+                                            <img src="icons/resume/developer.svg" alt="developer">
+                                        </div>
+                                        <div class="title title_fz14 resume__item-title">Web-разработчик</div>
+                                        <div class="resume__item-location">Санкт-Петербург</div>
+                                    </div>
+                                    <p class="resume__item-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eos quis in accusantium ab reprehenderit a id. Voluptates, odio doloribus quod magni suscipit error, fugiat delectus impedit eveniet recusandae expedita repellat distinctio.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="resume__item">
+                                    <div class="resume__item-head">
+                                        <div class="resume__item-icon">
+                                            <img src="icons/resume/designer.svg" alt="designer">
+                                        </div>
+                                        <div class="title title_fz14 resume__item-title">UI/UX Designer</div>
+                                        <div class="resume__item-location">Санкт-Петербург</div>
+                                    </div>
+                                    <p class="resume__item-text">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, deserunt quisquam quod odio quas aliquam suscipit vel quia doloribus rem modi laboriosam nesciunt ipsam, voluptas cum eum dicta nam, voluptates quasi blanditiis?
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skill" data-aos="fade-up">
+            <div class="container">
+                <div class="subtitle">
+                    Навыки
+                </div>
+                <h2 class="title skills__title">
+                    Что я использую в работе
+                </h2>
+                <div class="divider"></div>
+                <div class="skills__wrapper">
+                    <div class="skills__item">
+                        <img src="icons/skills/html5.svg" alt="html5" class="skills__item-icon">
+                        <div class="skills__item-title">
+                            HTML5
+                        </div>
+                        <p class="skills__item-descr">
+                            Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта
+                        </p>
+                    </div>
+                    <div class="skills__item">
+                        <img src="icons/skills/css3.svg" alt="css3" class="skills__item-icon">
+                        <div class="skills__item-title">
+                            CSS3
+                        </div>
+                        <p class="skills__item-descr">
+                            Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!
+                        </p>
+                    </div>
+                    <div class="skills__item">
+                        <img src="icons/skills/js.svg" alt="JS" class="skills__item-icon">
+                        <div class="skills__item-title">
+                            Java Script
+                        </div>
+                        <p class="skills__item-descr">
+                            Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое
+                        </p>
+                    </div>
+                    <div class="skills__item">
+                        <img src="icons/skills/jquery.svg" alt="jquery" class="skills__item-icon">
+                        <div class="skills__item-title">
+                            Jquery
+                        </div>
+                        <p class="skills__item-descr">
+                            Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект мы её не будем, но навык работы с ней присутствует
+                        </p>
+                    </div>
+                    <div class="skills__item">
+                        <img src="icons/skills/react.svg" alt="react" class="skills__item-icon">
+                        <div class="skills__item-title">
+                            React
+                        </div>
+                        <p class="skills__item-descr">
+                            Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели
+                        </p>
+                    </div>
+                    <div class="skills__item">
+                        <img src="icons/skills/node.js.svg" alt="node.js" class="skills__item-icon">
+                        <div class="skills__item-title">
+                            Node.js
+                        </div>
+                        <p class="skills__item-descr">
+                            Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит
+                        </p>
+                    </div>
+                    <div class="skills__item">
+                        <img src="icons/skills/mongo.db.svg" alt="mongo.db" class="skills__item-icon">
+                        <div class="skills__item-title">
+                            Mongo.db
+                        </div>
+                        <p class="skills__item-descr">
+                            Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="skills__ratings">
+                    <div class="skills__ratings-item">
+                        <div class="title title_fz14 skills__ratings-title">
+                            Создание сайтов
+                        </div>
+                        <div class="skills__ratings-counter">100%</div>
+                        <div class="skills__ratings-line">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="skills__ratings-item">
+                        <div class="title title_fz14 skills__ratings-title">
+                            Создание приложений
+                        </div>
+                        <div class="skills__ratings-counter">50%</div>
+                        <div class="skills__ratings-line">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="skills__ratings-item">
+                        <div class="title title_fz14 skills__ratings-title">
+                            Работа с данными
+                        </div>
+                        <div class="skills__ratings-counter">70%</div>
+                        <div class="skills__ratings-line">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="skills__ratings-item">
+                        <div class="title title_fz14 skills__ratings-title">
+                            Креативность
+                        </div>
+                        <div class="skills__ratings-counter">75%</div>
+                        <div class="skills__ratings-line">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="skills__ratings-item">
+                        <div class="title title_fz14 skills__ratings-title">
+                            Создание дизайна
+                        </div>
+                        <div class="skills__ratings-counter">70%</div>
+                        <div class="skills__ratings-line">
+                            <span></span>
+                        </div>
+
+                    </div>
+                    <div class="skills__ratings-item">
+                        <div class="title title_fz14 skills__ratings-title">
+                            Soft skills
+                        </div>
+                        <div class="skills__ratings-counter">95%</div>
+                        <div class="skills__ratings-line">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" data-aos="fade-up" id="portf">
+            <div class="container">
+                <div class="subtitle">Портфолио</div>
+                <h2 class="title portfolio__title">Мои работы</h2>
+                <div class="divider"></div>
+                <div class="portfolio__wrapper">
+                    <div class="portfolio__item" data-aos="flip-up">
+                        <div class="portfolio__block">
+                            <img src="img/portfolio/glopt.png" alt="glopt" class="portfolio__img">
+                            <div class="portfolio__block-descr">
+                                Мы организуем перевозки из Китая - оперативно и надежно, с учетом особенностей груза и ваших требований по срокам и бюджету.
+                            </div>
+                        </div>
+                        <a href="https://temamel.github.io/GloptProject/" target="_blank" class="portfolio__link">Global Opt - логистика полного цикла из Китая в Россию</a>
+                    </div>
+                    <div class="portfolio__item" data-aos="flip-down">
+                        <div class="portfolio__block">
+                            <img src="img/portfolio/prengi.png" alt="prengi" class="portfolio__img">
+                            <div class="portfolio__block-descr">
+                                Prengi предоставляет экспертные решения для Вашей отрасли. <br>
+                                PRENGI - Платформа для прозрачного управления бизнесом
+                            </div>
+                        </div>
+                        <a href="#" target="_blank" class="portfolio__link">Управляй своим бизнесом через Smartphone</a>
+                    </div>
+                    <div class="portfolio__item" data-aos="flip-down">
+                        <div class="portfolio__block">
+                            <img src="img/portfolio/pulse.png" alt="pulse" class="portfolio__img">
+                            <div class="portfolio__block-descr">
+                                Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
+                            </div>
+                        </div>
+                        <a href="#" target="_blank" class="portfolio__link">Управляй своим бизнесом через Smartphone</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="price" id="pr" data-aos="fade-up" id="price">
+            <div class="container">
+                <div class="subtitle">Прайс-лист</div>
+                <div class="divider"></div>
+                <div class="price__wrapper">
+                    <div class="price__item">
+                        <div class="price__name">Landing-page</div>
+                        <div class="price__count">от 8000 руб.</div>
+                        <div class="price__descr">Одностраничный сайт для презентации услуг/товаров/...</div>
+                    </div>
+                    <div class="price__item">
+                        <div class="price__name">Web-приложение</div>
+                        <div class="price__count">от 28000 руб.</div>
+                        <div class="price__descr">Приложение внутри браузера для лучшего комфорта</div>
+                    </div>
+                    <div class="price__item">
+                        <div class="price__name">Корпоративный сайт</div>
+                        <div class="price__count">от 10000 руб.</div>
+                        <div class="price__descr">Сайт для вашего бизнеса или компании</div>
+                    </div>
+                    <div class="price__item">
+                        <div class="price__name">Android/IOS Приложение</div>
+                        <div class="price__count">В разработке...</div>
+                        <div class="price__descr">Сайт для вашего бизнеса или компании. В разработке</div>
+                    </div>
+                    <div class="price__item">
+                        <div class="price__name">Интернет-магазин</div>
+                        <div class="price__count">от 15000 руб.</div>
+                        <div class="price__descr">Инструмент для ваших продаж в сети</div>
+                    </div>
+                    <div class="price__item">
+                        <div class="price__name">Дизайн</div>
+                        <div class="price__count">Индивидуально</div>
+                        <div class="price__descr">Создам дизайн для вашего сайта/приложения...</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts" id="cont" data-aos="fade-up">
+            <div class="container">
+                <div class="contacts__wrapper">
+                    <div class="contacts__photo">
+                        <img src="img/contacts/contacts_photo.PNG" alt="contact_photo">
+                    </div>
+                    <div class="contacts__item">
+                        <div class="contacts__subtitle">Контакты</div>
+                        <h2 class="title contacts__title">Свяжитесь со мной</h2>
+                        <div class="divider divider_mini"></div>
+                        <div class="title title_fz14 contacts__text">Любым удобным для вас способом:</div>
+                        <div class="contacts__social">
+                            <a href=" https://t.me/tematriceps" class="contacts__link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512"><style></style><path d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg>
+                            </a>
+                            <a href="" class="contacts__link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512"><style></style><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+                            </a>
+                            <a href="" class="contacts__link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><style></style><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                            </a>
+                        </div>
+                        <div class="title title_fz14 contacts__text">Или оставьте ваши данные и я сама вам напишу:</div>
+                        <form action="#" class="contacts__form">
+                            <div class="contacts__input">
+                                <input type="text" required id="name" name="name">
+                                <label for="name">Ваше имя</label>
+                            </div>
+                            <div class="contacts__input">
+                                <input type="email" required id="name" name="email">
+                                <label for="email">Ваша почта</label>
+                            </div>
+                            <div class="contacts__textarea">
+                                <textarea name="text" id="text"></textarea>
+                                <label for="text">Ваше сообщение</label>
+                            </div>
+                            <div class="contacts__triggers">
+                                <button class="contacts__btn btn">Отправить сообщение</button>
+                                <div class="contacts__policy">
+                                    <input required type="checkbox">
+                                    <span>Я согласен(а) с <a href="№">политикой конфиденциальности</a></span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
     
 
 
-    <script src="scss/libs/gsap/gsap.min.js"></script>
-	<script src="scss/libs/gsap/ScrollTrigger.min.js"></script>
-	<script src="scss/libs/gsap/ScrollSmoother.min.js"></script>
+    <!-- <script src="libs/gsap/gsap.min.js"></script>
+	<script src="libs/gsap/ScrollTrigger.min.js"></script>
+	<script src="libs/gsap/ScrollSmoother.min.js"></script> -->
     <script src="https://kit.fontawesome.com/0c6181907e.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>    
