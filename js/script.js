@@ -24,7 +24,6 @@ closeElem.addEventListener('click', function() {
 });
 
 menuLink.addEventListener('click', function() {
-	(this)
 	menu.classList.remove('active');
 })
 
@@ -43,6 +42,6 @@ counters.forEach( (item, i) => {
 
 
 AOS.init({
-	disable: 'phone',
+	// disable: 'phone',
 	duration: 2000,
 });
