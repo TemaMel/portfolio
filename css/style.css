@@ -943,7 +943,7 @@ body {
 .portfolio {
   padding: 23px 0 23px 0;
   width: 100%;
-  min-height: 1500px;
+  min-height: 1000px;
 }
 .portfolio__title {
   text-align: center;
@@ -969,6 +969,7 @@ body {
   margin-top: 30px;
   font-weight: 700;
   transition: 0.6s all;
+  text-align: center;
 }
 .portfolio__link:hover {
   color: #FFA501;
@@ -1060,12 +1061,12 @@ body {
   }
   .portfolio__block {
     width: 300px;
-    height: 200px;
+    height: 180px;
   }
   .portfolio__block-descr {
     font-size: 16px !important;
     width: 300px;
-    height: 200px;
+    height: 180px;
     font-size: 20px;
   }
 }
@@ -1156,6 +1157,9 @@ body {
 }
 .contacts__item {
   padding-top: 6px;
+}
+.contacts__photo {
+  border: 2px solid #FFA501;
 }
 .contacts__photo img {
   -o-object-fit: cover;
